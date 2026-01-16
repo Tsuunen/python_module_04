@@ -10,4 +10,4 @@ if (__name__ == "__main__"):
             print(file.read())
             print("\nData recovery complete. Storage unit disconnected.")
     except Exception:
-        print("ERROR: Storage vault not found")
+        print("ERROR: Storage vault not found, Run data generator first.")
